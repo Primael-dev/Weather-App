@@ -7,10 +7,11 @@ def locate():
         g = geocoder.ip('me')
         
         if g.ok:
-            return g.latlng 
+            return g.latlng
+        return [9.3077, 2.3158] 
     except Exception as e:
             print (f"Error:{e}")
-            return
+            return [9.3077, 2.3158]
 
 # Fonction qui récupère le nom de la ville de l'utilisateur via son IP    
 def get_ville():

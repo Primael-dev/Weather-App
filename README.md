@@ -60,6 +60,10 @@ Une fois l'installation terminée et l'environnement activé, lancez l'applicati
 ```bash
 python app.py 
 ```
+pour les tests :
+```bash
+pytest 
+```
 
 L'application sera accessible à l'adresse : `http://127.0.0.1:5000`
 
