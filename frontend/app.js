@@ -1,5 +1,5 @@
 // URL de l'API backend
-const API_URL = 'http://127.0.0.1:5000/api/weather';
+const API_URL = '/api/weather';
 
 // Sélection des éléments du DOM
 const cityInput = document.querySelector('.city-input');
